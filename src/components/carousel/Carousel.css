@@ -1,0 +1,18 @@
+.carousel-item > div{
+    top:13%;
+    right: 7%;
+    background-color:rgba(0,0,0,0.2) !important;
+    width: 450px;
+}
+.carousel-item > div > h2{
+    font-size: 1rem;
+}
+.carousel-item > div > p{
+    font-size: 0.7rem;
+}
+.carousel-item > div >  button{
+    font-size: 0.7rem;
+}
+.carousel-item > div >  button > img{
+    width: 15px;
+}

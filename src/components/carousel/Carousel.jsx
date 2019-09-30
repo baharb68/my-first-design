@@ -1,7 +1,11 @@
 import React, { Component } from 'react'
 import header from '../img/header.jpg'
+import './Carousel.css'
 
 export default class Carousel extends Component {
+  constructor(props){
+    super(props);
+  }
     render() {
         return (
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -11,12 +15,12 @@ export default class Carousel extends Component {
               <li data-target="#carouselExampleIndicators" data-slide-to="2"></li> */}
             </ol>
             <div class="carousel-inner">
-              <div class="carousel-item active position-relative">
+              <div class="carousel-item active d-flex position-relative">
                 <img src={header} class="d-block w-100" alt="..." />
-                <div className="d-none d-md-flex flex-md-column d-md-block align-items-start position-absolute w-50">
+                <div className="d-none d-md-flex flex-md-column d-md-block align-items-start position-absolute px-3 py-3">
                     <h2 className="font-weight-bold">{this.props.title}</h2>
-                    <p className="text-right mt-3">{this.props.content}</p>
-                    <button className="mr-auto text-white mt-4">{this.props.buttontxt}<img src={this.props.btnicon} alt="" className="mr-2"/></button>
+                    <p className="text-right mt-2">{this.props.content}</p>
+                    <button className="btn btn-light mt-2 mr-auto">{this.props.btntext}<img src={this.props.btnicon} alt="" className="mr-2"/></button>
                 </div>
               </div>
               {/* <div class="carousel-item">
