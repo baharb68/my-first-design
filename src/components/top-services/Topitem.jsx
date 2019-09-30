@@ -6,7 +6,7 @@ export default class Topitem extends Component {
     }
     render() {
         return (
-            <div className="topitem col-12 col-md-3">
+            <div className="topitem col-12 col-md-3 px-4">
                 <div className="d-flex flex-column align-items-center bg-white p-4 b-shadow">
                     <img src={this.props.icon} alt="" className="mb-4"/>
                     <h2>{this.props.title}</h2>

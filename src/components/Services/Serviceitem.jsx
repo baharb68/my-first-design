@@ -13,7 +13,7 @@ export default class Serviceitem extends Component {
                     </div>
                     <h2 className="py-3 m-0">{this.props.title}</h2>
                     <p className="">{this.props.content}</p>
-                    <button className="btn">{this.props.btntext} <img src={this.props.btnicon} alt="" className="mr-2"/> </button>
+                    <button className="btn">{this.props.btntext}</button>
                 </div>
             </div>
         )

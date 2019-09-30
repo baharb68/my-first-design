@@ -1,18 +1,19 @@
 .carousel{
-    margin-bottom: 6%;
+    margin-bottom: 12%;
 }
 .carousel-item > div{
     top:15%;
     left: 7%;
-    width: 450px;
+    width: 420px;
 }
 .carousel-item > div > h2{
     color: #555555;
-    font-size: 1.5rem;
+    font-size: 3.5rem;
 }
 .carousel-item > div > p{
     font-size: 0.7rem;
     color: #8d9799;
+    line-height: 20px;
 }
 .carousel-item > div >  button{
     font-size: 0.8rem;

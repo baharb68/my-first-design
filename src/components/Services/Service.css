@@ -1,9 +1,8 @@
 .service:hover .rounded-circle{
-    /* background-color:#f3f3f3; */
-    border:3px solid #736357;
+    background-color:#e3f3cf;
 }
 .service .rounded-circle{
-    border:2px solid #736357;
+    border:2px solid #84c52b;
     width: 100px;
     height:100px ;
 }
@@ -11,22 +10,22 @@
     width: 50px;
 }
 .service h2{
-    color:rgb(71, 70, 70) ;
+    color:#27303f;
     font-size: 0.8rem;
 }
 .service p{
     font-size: 0.6rem;
-    color: rgb(143, 131, 131);
+    color: #a7a7a7;
 }
-.service button:hover{
-    color:#d8cbc0;
-    background-color:#726354 ;
-}
+
 .service button{
     font-size: 0.7rem;
-    color:#e9e2dc;
-    background-color:#837260 ;
+    color:#04121d;
+    border:1px solid #04121d ;
+
 }
-.service button img{
-    width:15px;
+.service button:hover{
+    color:#fff;
+    border:1px solid #04121d ;
+    background-color:#04121d ;
 }

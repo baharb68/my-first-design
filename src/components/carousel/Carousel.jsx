@@ -20,8 +20,8 @@ export default class Carousel extends Component {
                   <img src={header} class="d-block w-100" alt="..." />
                   <div className="d-none d-md-flex flex-md-column d-md-block align-items-start position-absolute px-3 py-3">
                       <h2 className="font-weight-bold">{this.props.title}</h2>
-                      <p className="text-right mt-2">{this.props.content}</p>
-                      <button className="btn mt-2 py-2 px-4 text-center">{this.props.btntext}</button>
+                      <p className="text-right my-3">{this.props.content}</p>
+                      <button className="btn  py-2 px-4 text-center">{this.props.btntext}</button>
                   </div>
                 </div>
                 {/* <div class="carousel-item">
