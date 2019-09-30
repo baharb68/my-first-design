@@ -1,0 +1,28 @@
+.service .rounded-circle{
+    border:2px solid #736357;
+    width: 100px;
+    height:100px ;
+}
+.service .rounded-circle img{
+    width: 50px;
+}
+.service h2{
+    color:rgb(71, 70, 70) ;
+    font-size: 0.8rem;
+}
+.service p{
+    font-size: 0.6rem;
+    color: rgb(143, 131, 131);
+}
+.service button:hover{
+    color:#d8cbc0;
+    background-color:#726354 ;
+}
+.service button{
+    font-size: 0.7rem;
+    color:#d8cbc0;
+    background-color:#a89887 ;
+}
+.service button img{
+    width:15px;
+}

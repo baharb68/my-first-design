@@ -8,6 +8,7 @@ import 'bootstrap';
 import 'vazir-font/dist/font-face.css';
 import Navbar from './components/navbar/Navbar'
 import Carousel from './components/carousel/Carousel'
+import Service from './components/Services/Service'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Navbar logo="لوگو" />
       </div>
       <Carousel />
+      <Service />
     </div>
   );
 }
