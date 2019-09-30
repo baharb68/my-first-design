@@ -7,6 +7,7 @@ import 'popper.js';
 import 'bootstrap';
 import 'vazir-font/dist/font-face.css';
 import Navbar from './components/navbar/Navbar'
+import Carousel from './components/carousel/Carousel'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <div className="container-fluid bg-black">
         <Navbar logo="لوگو" />
       </div>
+      <Carousel />
     </div>
   );
 }
