@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import './Navbar.css'
 import Li from './Li'
+import logo1 from '../img/logo.png'
 
 export default class Navbar extends Component {
     constructor(props){
@@ -10,7 +11,12 @@ export default class Navbar extends Component {
         return (
             <div>
                 <nav class="container navbar navbar-expand-lg navbar-light py-0 my-0">
-                    <a class="navbar-brand" href="#">{this.props.logo}</a>
+                    <div className="logo d-flex align-items-center">
+                        <div>
+                            <img src={logo1} alt="" className="w-100"/>
+                        </div>
+                        <a class="navbar-brand font-weight-bold" href="#">{this.props.logo}</a>
+                    </div>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>

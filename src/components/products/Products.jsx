@@ -9,6 +9,7 @@ export default class Products extends Component {
         return (
             <div className="d-flex flex-column align-items-center mt-4">
                 <Parttitle title="محصولات" seperator={seperator}/>
+                {/* <Productitem photo={} title="محصول یکم" */}
                 
             </div>
         )

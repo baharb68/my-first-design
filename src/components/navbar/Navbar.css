@@ -1,14 +1,17 @@
+.logo div{
+    width: 50px;
+}
 .nav-item:hover{
-    background-color: #e7e0d8;
+    background-color: #f7f8f6;
 }
 .nav-item:hover a{
-    color: #000000 !important;
+    color: #7bc91e !important;
 }
 .nav-item a {
-    color: #f3efef !important;
+    color: #414b54 !important;
     font-size: 0.8rem;
 }
 .navbar-brand{
     font-size: 1.5rem;
-    color: #e5e5e5 !important;
+    color: #555555 !important;
 }
