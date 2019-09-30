@@ -1,0 +1,18 @@
+.order div{
+    background-color: #84c52b;
+}
+.order .col-9{
+    background-color: #e3f3cf;
+}
+.order h2{
+    color: #0a1b2f;
+    font-size: 0.9rem;
+}
+.order img{
+    width:30px;
+}
+.order p{
+    color: #a2a2a2;
+    font-size: 0.6rem;
+    line-height: 20px;
+}
