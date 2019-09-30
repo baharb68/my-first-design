@@ -24,7 +24,7 @@
     border:1px solid #04121d ;
 
 }
-.service button:hover{
+.service:hover button{
     color:#fff;
     border:1px solid #04121d ;
     background-color:#04121d ;

@@ -1,12 +1,15 @@
 .logo div{
     width: 50px;
 }
+.nav-item{
+    border-bottom:2px solid transparent;
+}
 .nav-item:hover{
-    background-color: #f7f8f6;
+    border-bottom:2px solid #7bc91e;
 }
-.nav-item:hover a{
+/* .nav-item:hover a{
     color: #7bc91e !important;
-}
+} */
 .nav-item a {
     color: #414b54 !important;
     font-size: 0.8rem;

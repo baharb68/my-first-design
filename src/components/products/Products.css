@@ -1,5 +1,8 @@
 .productitem div{
     bottom: 0px;
-    height: 100px;
-    background-color: rgba(0,0,0,0.3);
+    height: 20px;
+    background-color: rgba(132,197,45,1);
+}
+.productitem div h3{
+    font-size: 0.9rem;
 }
