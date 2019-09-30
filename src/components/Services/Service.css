@@ -1,3 +1,7 @@
+.service:hover .rounded-circle{
+    /* background-color:#f3f3f3; */
+    border:3px solid #736357;
+}
 .service .rounded-circle{
     border:2px solid #736357;
     width: 100px;
@@ -21,7 +25,7 @@
 .service button{
     font-size: 0.7rem;
     color:#e9e2dc;
-    background-color:#a89887 ;
+    background-color:#837260 ;
 }
 .service button img{
     width:15px;
