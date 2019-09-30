@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './Navbar.css'
 
 export default class Li extends Component {
     constructor(props){
@@ -6,9 +7,9 @@ export default class Li extends Component {
     }
     render() {
         return (
-            <div>
-                
-            </div>
+            <li class="nav-item px-3 py-2">
+                <a class="nav-link" href="#">{this.props.link}</a>
+            </li>
         )
     }
 }

@@ -6,10 +6,14 @@ import 'jquery';
 import 'popper.js';
 import 'bootstrap';
 import 'vazir-font/dist/font-face.css';
+import Navbar from './components/navbar/Navbar'
 
 function App() {
   return (
     <div className="App">
+      <div className="container-fluid bg-black">
+        <Navbar logo="لوگو" />
+      </div>
     </div>
   );
 }

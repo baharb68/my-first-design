@@ -4,4 +4,6 @@
 .App {
   text-align: center;
 }
-
+.bg-black{
+  background-color: #101112;
+}
