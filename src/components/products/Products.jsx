@@ -13,14 +13,14 @@ import p6 from '../img/p6.jpg'
 export default class Products extends Component {
     render() {
         return (
-            <div className=" container d-flex flex-column align-items-center mt-4">
+            <div className="container w-75 d-flex flex-column align-items-center mt-4">
                 <Parttitle title="محصولات" seperator={seperator}/>
                 <div className="d-flex flex-column flex-md-row flex-wrap mt-4">
-                    <Productitem photo={p6} title="محصول یکم" />
-                    <Productitem photo={p6} title="محصول دوم" />
-                    <Productitem photo={p6} title="محصول سوم" />
-                    <Productitem photo={p6} title="محصول چهارم" />
-                    <Productitem photo={p6} title="محصول پنجم" />
+                    <Productitem photo={p1} title="محصول یکم" />
+                    <Productitem photo={p2} title="محصول دوم" />
+                    <Productitem photo={p3} title="محصول سوم" />
+                    <Productitem photo={p4} title="محصول چهارم" />
+                    <Productitem photo={p5} title="محصول پنجم" />
                     <Productitem photo={p6} title="محصول ششم" />
                 </div>
                 

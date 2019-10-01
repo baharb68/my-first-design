@@ -12,6 +12,7 @@ import Carousel from './components/carousel/Carousel'
 import Service from './components/Services/Service'
 import Products from './components/products/Products'
 import Order from './components/order/Order'
+import Footer from './components/footer/Footer'
 
 function App() {
   return (
@@ -24,9 +25,10 @@ function App() {
       <div className="container-fluid bg-gray mt-5">
         <Order />
       </div>
-
       <Products />
-
+      <div className="container-fluid bg-footer mt-5 py-5" >
+        <Footer />
+      </div>
     </div>
   );
 }

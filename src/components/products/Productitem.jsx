@@ -10,7 +10,7 @@ export default class Productitem extends Component {
                 <div className="productitem d-flex position-relative">
                     <img src={this.props.photo} alt="" className="w-100"/>
                     <div className="d-flex align-items-center justify-content-center position-absolute w-100 py-3">
-                        <h3 className="text-white font-weight-light m-0">{this.props.title}</h3>
+                        <h3 className="text-dark font-weight-light m-0">{this.props.title}</h3>
                     </div>
                 </div>
             </div>

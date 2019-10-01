@@ -1,0 +1,29 @@
+.footer h2{
+    font-size:1.3rem;
+}
+.footer h3{
+    font-size:1rem;
+}
+.footerp{
+    border-bottom: 1px solid #444444;
+}
+.footer p{
+    font-size: 0.7rem;
+    line-height: 20px;
+    color: #777777;
+}
+.footerp div:first-child{
+    width: 40px;
+}
+.footerp h4 , .footerp h5 , .contact h5, .contact h4{
+    font-size: 0.8rem;
+    color: #777777;
+}
+.follow{
+    width: 30px;
+    height: 30px;
+    background-color: #5d963f;
+}
+.follow img{
+    width: 12px;
+}

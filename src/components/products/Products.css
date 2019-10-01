@@ -1,7 +1,15 @@
+.productitem{
+    overflow: hidden;
+    border: 1px solid #7dc11c;
+}
 .productitem div{
+    bottom: -40px;
+    height: 40px;
+    background-color: rgba(227,243,207,0.9);
+    transition: all 1s;
+}
+.productitem:hover div{
     bottom: 0px;
-    height: 20px;
-    background-color: rgba(132,197,45,1);
 }
 .productitem div h3{
     font-size: 0.9rem;
