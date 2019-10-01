@@ -27,3 +27,16 @@
 .follow img{
     width: 12px;
 }
+.bg-green{
+    background-color: #5d963f;
+}
+.bg-green h6{
+    font-size: 0.7rem;
+}
+form {
+    color:#777777 ;
+}
+form input , textarea{
+    background-color: #181616!important;
+    border: 1px solid #5d963f !important;
+}

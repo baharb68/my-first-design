@@ -17,8 +17,8 @@ import Footer from './components/footer/Footer'
 function App() {
   return (
     <div className="App">
-      <div className="container-fluid ">
-        <Navbar logo="لوگو" />
+      <div className="container-fluid bg-footer ">
+        <Navbar logo="نام وب سایت" />
       </div>
       <Carousel title="نام وب سایت" content="لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون " btntext="ادامه مطلب"/>
       <Service />
@@ -26,7 +26,7 @@ function App() {
         <Order />
       </div>
       <Products />
-      <div className="container-fluid bg-footer mt-5 py-5" >
+      <div className="container-fluid bg-footer mt-5 pt-5 px-0" >
         <Footer />
       </div>
     </div>
