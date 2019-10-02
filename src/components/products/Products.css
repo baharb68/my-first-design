@@ -1,11 +1,11 @@
 .productitem{
     overflow: hidden;
-    border: 1px solid #7dc11c;
+    border: 1px solid #2b376f ;
 }
 .productitem div{
     bottom: -40px;
     height: 40px;
-    background-color: rgba(227,243,207,0.9);
+    background-color: rgba(43,55,111,0.5);
     transition: all 1s;
 }
 .productitem:hover div{

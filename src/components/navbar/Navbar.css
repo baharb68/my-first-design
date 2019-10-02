@@ -3,14 +3,15 @@
 }
 .nav-item{
     border-top:2px solid transparent;
+    transition: all 0.4s;
 }
 .nav-item:hover{
-    /* background-color: #5d963f; */
-    border-top:2px solid #7bc91e;
+    background-color: #f4f4fb;
+    /* border-top:2px solid #7bc91e; */
 }
-/* .nav-item:hover a{
-    color: #414b54 !important;
-} */
+.nav-item:hover a{
+    color: #726c81 !important;
+}
 .nav-item a {
     /* color: #414b54 !important; */
     color: rgb(231, 231, 231) !important;

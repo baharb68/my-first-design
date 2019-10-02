@@ -10,6 +10,7 @@ import telegram from '../img/telegram.png'
 import instagram from '../img/instagram.png'
 import whatsapp from '../img/whatsapp.png'
 import twitter from '../img/twitter.png'
+import google from '../img/google.png'
 
 
 export default class Footer extends Component {
@@ -42,9 +43,10 @@ export default class Footer extends Component {
                         </div>
                         <div className="d-flex justify-content-start pt-5">
                             <Followitem icon={telegram} />
-                            <Followitem icon={twitter} />
                             <Followitem icon={whatsapp} />
                             <Followitem icon={instagram} />
+                            <Followitem icon={twitter} />
+                            <Followitem icon={google} />
                         </div>
                     </div>
 
@@ -52,17 +54,17 @@ export default class Footer extends Component {
                         <form>
                             <div class="form-group d-flex flex-column align-items-start ">
                                 <label for="inputEmail4">نام و نام خانوادگی:</label>
-                                <input type="email" class="form-control" id="inputEmail4" placeholder=""/>
+                                <input type="email" class="form-control form-control-sm" id="inputEmail4" placeholder=""/>
                             </div>
                             <div class="form-group d-flex flex-column align-items-start">
                                 <label for="inputAddress">ایمیل: </label>
-                                <input type="text" class="form-control" id="inputAddress" placeholder=""/>
+                                <input type="text" class="form-control form-control-sm" id="inputAddress" placeholder=""/>
                             </div>
                             <div class="form-group d-flex flex-column align-items-start">
                                 <label for="exampleFormControlTextarea1">پیام شما</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                <textarea class="form-control form-control-sm" id="exampleFormControlTextarea1" rows="2"></textarea>
                             </div>
-                            <button type="submit" class="btn btn-success">ارسال</button>
+                            <button type="submit" class="btn text-white">ارسال</button>
                         </form>
                     </div>
 

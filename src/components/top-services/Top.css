@@ -2,6 +2,9 @@
     bottom: -25%;
     z-index:1;
 }
+.topitem div{
+    transition: all 0.3s;
+}
 .topitem div:hover{
     background-color:#252d38 !important ;
 }
@@ -13,7 +16,7 @@
 
 }
 .topitem img{
-    width: 30px;
+    width: 40px;
 }
 .topitem h2{
     color: #0a1b2f;

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import header from '../img/header.jpg'
+import header from '../img/header2.jpg'
 import './Carousel.css'
 import Top from '../top-services/Top'
 import topbg from '../img/topbg.png'
@@ -22,7 +22,7 @@ export default class Carousel extends Component {
                   <div className="d-none d-md-flex flex-md-column d-md-block align-items-start position-absolute px-3 py-3">
                       <h2 className="font-weight-bold">{this.props.title}</h2>
                       <p className="text-right my-3">{this.props.content}</p>
-                      <button className="btn  py-2 px-4 text-center">{this.props.btntext}</button>
+                      <button className="btn  py-2 px-4 text-center text-white">{this.props.btntext}</button>
                   </div>
                 </div>
                 {/* <div class="carousel-item">

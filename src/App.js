@@ -22,7 +22,7 @@ function App() {
       </div>
       <Carousel title="نام وب سایت" content="لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون " btntext="ادامه مطلب"/>
       <Service />
-      <div className="container-fluid bg-gray mt-5">
+      <div className="container-fluid bg-gray mt-5 py-2">
         <Order />
       </div>
       <Products />

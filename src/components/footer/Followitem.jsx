@@ -6,7 +6,7 @@ export default class Followitem extends Component {
     }
     render() {
         return (
-            <div className="follow d-flex align-items-center justify-content-center rounded-circle ml-1">
+            <div className="follow d-flex align-items-center justify-content-center ml-1">
                 <img src={this.props.icon} alt=""/>
             </div>
         )
